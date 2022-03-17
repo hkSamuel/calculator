@@ -1,0 +1,63 @@
+.calculor{
+    height: 800px;
+    width: 500px;
+    background-color: black;
+    border: black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+button{
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border: dotted darkorange;
+    font-size: 30px;
+
+}
+button:hover{
+    background-color: grey;
+    height: 80px;
+    width: 80px;
+    color: orange;
+}
+
+
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+.previousNumber{
+    text-align: end;
+    padding: 5px;
+    font-size: 25px;
+}
+.currentNumber{
+    text-align: end;
+    padding: 5px;
+    font-size: 30px;
+}
+.screen{
+    margin: 10px;
+    background-color: grey;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
